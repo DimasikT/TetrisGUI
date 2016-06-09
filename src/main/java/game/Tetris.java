@@ -114,7 +114,7 @@ public class Tetris extends JPanel implements ActionListener {
         g.setColor(color(33, 66, 00));
         Font font = new Font("Arial", Font.BOLD, 20);
         g.setFont(font);
-        g.drawString("YOUR SCORE: " + score, 10, 30);
+        g.drawString("SCORE: " + score, 10, 30);
     }
 
     public Color color(int red, int green, int blue) {
